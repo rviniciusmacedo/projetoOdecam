@@ -1,0 +1,21 @@
+.cliente__imagem {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+.cliente__imagem--Rededor {
+    background-image: url('../../img/cliente/rede-dor.png');
+
+}
+
+.cliente__imagem--Bancobrasil {
+    background-image: url('../../img/cliente/bb.png');
+
+}
+
+.cliente__imagem--Metrorio {
+    background-image: url('../../img/cliente/metrorio.png');
+}
