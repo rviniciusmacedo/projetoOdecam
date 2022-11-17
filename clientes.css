@@ -1,0 +1,17 @@
+.clientes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .clientes {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .clientes {
+        flex-direction: row;
+    }
+}
